@@ -1,4 +1,4 @@
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.10
+FROM bitnami/python:3.11.2
 WORKDIR /app
 
 COPY . .
